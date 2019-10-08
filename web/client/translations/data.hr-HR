@@ -609,17 +609,17 @@
             "service_missing": "{serviceType} servis nije konfiguriran",
             "generic_error": "Došlo je do greške prilikom pretrage. Detalji greške: {message}",
             "errors": {
-                "nonQueriableLayers": "The layer provided in the url is not queriable or not visible in map",
-                "serverError": "The server has return an error when performing the GetFeatureInfo request. Check if the params are correct"
+                "nonQueriableLayers": "Sloj sa poveznice nije pretraživ ili nije vidljiv na karti",
+                "serverError": "Poslužitelj je javio grešku prilikom obrade GetFeatureInfo zahtjeva. Provjerite točnost parametara"
             },
             "s_launch_info_panel": {
-                "label": "Launch Info panel",
-                "no_info": "No Info",
-                "all_layers": "All Layers",
-                "single_layer": "Search Layer",
-                "no_info_description": "Identify panel will not show up on search",
-                "all_layers_description": "Identify panel will show up displaying information of all layers visible in map",
-                "single_layer_description": "Identify panel will show up with the data already available through the WFS search"
+                "label": "Pokreni info panel",
+                "no_info": "Nema informacija",
+                "all_layers": "Svi slojevi",
+                "single_layer": "Pretraži sloj",
+                "no_info_description": "Info panel se neće prikazati prilikom pretrage",
+                "all_layers_description": "Info pamnet će se prikazati sa informacijama o svim slojevima vidljivima na karti",
+                "single_layer_description": "Info pnel će se prikazati sa podacima već dostupnima kroz WFS pretragu"
             }
         },
         "draw": {
@@ -1144,7 +1144,7 @@
             "templateMetadataAvailable": "Metapodaci distupni iz Dublin Core formata: abstract, boundingBox, contributor, creator, description, format, identifier, references, rights, source, subject, temporal, title, type, uri",
             "notification": {
                 "errorTitle": "Error",
-                "errorSearchingRecords": "Some records have not been found: {records} Please check the query param url",
+                "errorSearchingRecords": "Neki zapisi nisu pronađeni: {records} Molimo provjerite parametre upita",
                 "warningAddCatalogService": "Unesi ispravni url i naslov",
                 "addCatalogService": "Servis je dodan ispravno",
                 "duplicatedServiceTitle": "Servis sa tim naslovom već postoji. Molim, promijenite naslov",
